@@ -8,7 +8,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import re
 
-driver = webdriver.Safari()
+driver = webdriver.Edge()
 driver.get("https://novelai.io/tags")
 
 # Find the type elements
